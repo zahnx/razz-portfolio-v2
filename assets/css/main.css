@@ -826,7 +826,6 @@ h6 {
   padding: 100px 0 60px 0;
   overflow: hidden;
 }
-
 .hero:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 45%);
@@ -879,7 +878,7 @@ h6 {
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 }
