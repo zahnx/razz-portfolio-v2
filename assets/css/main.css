@@ -883,6 +883,13 @@ h6 {
   }
 }
 
+@media (max-width: 350px) {
+  .hero p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 
 
 .hero .btn-get-started {
