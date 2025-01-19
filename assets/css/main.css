@@ -1050,7 +1050,7 @@ h6 {
 @media (max-width: 576px) {
 
   .hero img {
-    width: 80%!important;
+    width: 100%!important;
   }
 
 }
