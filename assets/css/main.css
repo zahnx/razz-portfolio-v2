@@ -1054,7 +1054,13 @@ h6 {
   }
 
 }
+@media (max-width: 414px) {
 
+  .portfolio h2 {
+    font-size: 36px!important;
+  }
+
+}
 @media (max-width: 350px) {
   .hero p {
     font-size: 14px;
