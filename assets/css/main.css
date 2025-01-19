@@ -1015,6 +1015,14 @@ h6 {
 
 }
 
+@media (max-width: 871px) {
+ 
+  .hero .col-lg-8{
+    width: 90%;
+  }
+
+}
+
 @media (max-width: 822px) {
  
   .hero .container, .hero .row{
