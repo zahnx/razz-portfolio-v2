@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio Details - Forkify</title>
+    <meta
+      name="description"
+      content="Forkify – A modern JavaScript-based recipe application that allows users to search for recipes, view ingredients, adjust servings, bookmark favorites, and add custom recipes. Built with MVC architecture and asynchronous JavaScript for a seamless experience."
+    />
+
+    <meta
+      name="keywords"
+      content="Forkify, recipe app, JavaScript project, API integration, MVC architecture, modern JavaScript, ES6, web development, portfolio project, cooking app, meal planner"
+    />
+
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon" />
+    <!--   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="../assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="portfolio-details-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="../index.html" class="logo d-flex align-items-center me-auto">
+          <!-- <img src="assets/img/logo.png" alt="Logo"> -->
+          <h2 class="sitename">ZAHN.</h2>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="../index.html" class="active">Home<br /></a>
+            </li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a
+          class="btn-getstarted"
+          href="../assets/pdf/Razzel_Marasigan_CV_2025.pdf"
+          target="_blank"
+          >View CV</a
+        >
+      </div>
+    </header>
+
+    <main class="main" id="portfolio">
+      <!-- Page Title -->
+      <div class="page-title brand-background">
+        <div class="container">
+          <span class="latest-work">project showcase</span>
+          <h1>Forkify Website</h1>
+          <nav class="breadcrumbs">
+            <a
+              href="https://forkify-zhan.netlify.app/#664c8f193e7aa067e94e8906"
+              class="portfolio-btn"
+              target="_blank"
+              >View live site</a
+            >
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up">
+          <div class="portfolio-details-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "navigation": {
+                  "nextEl": ".swiper-button-next",
+                  "prevEl": ".swiper-button-prev"
+                },
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img
+                  src="../assets/img/portfolio/forkify-flowchart.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="../assets/img/portfolio/forkify-architecture.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="row justify-content-between gy-4 mt-4">
+            <div class="col-lg-8" data-aos="fade-up">
+              <div class="portfolio-description-1">
+                <h2>Mapty - Workout Tracker</h2>
+                <p>
+                  Forkify is a modern JavaScript-based recipe application that
+                  fetches meal data from an external API. This project helped me
+                  deepen my understanding of MVC architecture, asynchronous
+                  JavaScript, and state management. Users can search for
+                  recipes, view detailed ingredients, adjust servings, bookmark
+                  favorites, and even add their own recipes. The app dynamically
+                  updates and persists data using local storage, ensuring a
+                  seamless user experience. Through this project, I gained
+                  hands-on experience with API integration, modular JavaScript,
+                  and UI/UX optimization.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li>
+                    <strong>Category</strong> JavaScript, MVC Architecture, API
+                    Integration, Asynchronous JavaScript, Course Work
+                  </li>
+                  <li><strong>Client</strong> Concept</li>
+                  <li><strong>Project date</strong> 14 February, 2025</li>
+                  <li>
+                    <strong>Project URL</strong>
+                    <a
+                      href="https://forkify-zhan.netlify.app/#664c8f193e7aa067e94e8906"
+                      target="_blank"
+                      >https://forkify-zhan.netlify.app</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://forkify-zhan.netlify.app/#664c8f193e7aa067e94e8906"
+                      class="btn-visit align-self-start"
+                      target="_blank"
+                      >Visit Website</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Details Section -->
+
+      <!-- Call To Action Section -->
+      <section
+        id="call-to-action"
+        class="call-to-action section brand-background"
+      >
+        <div class="container">
+          <div
+            class="row justify-content-center"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Like What You’re Seeing So Far?</h3>
+                <p>
+                  Let’s work together to bring your ideas to life. Download my
+                  CV to learn more about my experience and how I can help you
+                  achieve your goals.
+                </p>
+                <a
+                  class="cta-btn"
+                  href="../assets/pdf/Razzel_Marasigan_CV_2025.pdf"
+                  download
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Call To Action Section -->
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 gr-lg-5 col-md-12 footer-about">
+            <a href="../index.html" class="logo d-flex align-items-center">
+              <!-- <img src="assets/img/logo.png" alt="Logo"> -->
+              <h2 class="sitename">ZAHN.</h2>
+            </a>
+            <p>
+              I design and build responsive, user-friendly websites with
+              expertise in HTML, CSS, and JavaScript. Let’s connect if you're
+              looking for a modern, high-performance website.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a
+                href="https://www.facebook.com/nahidahaver"
+                aria-label="Follow us on Facebook"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/azhn018"
+                aria-label="Follow us on Instagram"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/azreyes"
+                aria-label="Follow us on LinkedIn"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="../index.html#hero">Home</a></li>
+              <li><a href="../index.html#services">Services</a></li>
+              <li><a href="../index.html#portfolio">Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 footer-contact text-md-start">
+            <h4>Contact</h4>
+            <p>157 Brgy. Subic Ibaba, Agoncillo, Batangas 4211</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+639617543106</span>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <span>marasiganrazzelreyes@gmail.com</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
