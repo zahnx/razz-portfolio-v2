@@ -260,20 +260,19 @@ h6 {
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
-  color: var(--accent-color);
-  /* background: var(--accent-color); */
-  border: solid 2px var(--accent-color);
+  color: var(--contrast-color);
+  background: var(--accent-color);
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
-  border-radius: 20px;
+  border-radius: 4px;
   transition: 0.3s;
 }
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 35%);
 }
 
 @media (max-width: 1200px) {
@@ -859,7 +858,7 @@ h6 {
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 60px 0 60px 0;
+  padding: 100px 0 60px 0;
   overflow: hidden;
   z-index: 1;
 }
@@ -870,6 +869,25 @@ h6 {
   inset: 0;
   z-index: 2;
 }
+
+/* .hero-image-cont{
+  position: absolute;
+  bottom: -90px;
+  right: 0;
+  transform: translateX(50%)!important;
+  width: 80%;
+  z-index: -1;
+}
+
+.hero-image-cont::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px; 
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255));
+} */
 
 .hero img {
   display: block;
@@ -895,12 +913,6 @@ h6 {
   align-items: center;
 }
 
-.hero-content img {
-  width: clamp(120px, 25vw, 222px);
-  margin-bottom: 20px;
-  height: auto;
-}
-
 /* .hero h1 {
   margin: 0;
   font-size: 6rem;
@@ -921,22 +933,22 @@ h6 {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(2.8rem, 6vw, 6rem);
+  font-size: clamp(2.5rem, 5vw, 6rem);
   font-weight: 500;
-  line-height: clamp(2.7rem, 6vw, 7rem);
+  line-height: clamp(3rem, 6vw, 7rem);
   letter-spacing: -0.05em;
-  background: linear-gradient(130deg, var(--accent-color), #c9d9ef);
+  background: linear-gradient(130deg, #000, #6c6c6c);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  width: min(80%, 100%);
+  max-width: 90%;
 }
 
 .hero p {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   font-size: clamp(14px, 2vw, 18px);
-  color: var(--default-color);
-  width: min(75%, 100%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  width: min(85%, 700px);
   text-align: center;
 }
 
@@ -1400,7 +1412,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 30px;
+  border-radius: 5px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid var(--contrast-color);
@@ -1408,8 +1420,8 @@ h6 {
 }
 
 .call-to-action .cta-btn:hover {
-  background: #ffffff;
-  color: var(--background-color);
+  background: #92a4b2;
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
